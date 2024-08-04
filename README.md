@@ -1,8 +1,14 @@
-This is a BIDS dataset for UCLA iEEG data.
+This dataset was utilized for the publication of the manuscript by Zhang et al. (in preparation). A subset of the data has been employed in [1] and [2].
 
-References
-----------
-Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+Summary:
+This data set comprises the de-identified subjects with interictal iEEG recordings with sleep from University of California Los Angels Mattel Children’s Hospital, and Children’s Hospital of Michigan, Detroit. 
+Subject-wise information is contained in each folder, including iEEGs collected from 185 subjects during sleep. The channel name and valuables, such as the anatomical label and the resection status, are attached to each folder. The outcome and background information of all the subjects are summarized in ‘paticipant.tsv’ located in the parental directory.
 
-Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., … Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7
+Derivatives
+The processed data for HFO detection and classification are shown in the derivatives/folder. The HFO analysis contains detection from two methods: RMS and MNI detectors.
 
+
+Ref 
+[1] Zhang Y, Lu Q, Monsoor T, et al. Refining epileptogenic high-frequency oscillations using deep learning: a reverse engineering approach. Brain Commun. 2022;4(1):fcab267. doi:10.1093/braincomms/fcab267
+
+[2] Kuroda N, Sonoda M, Miyakoshi M, et al. Objective interictal electrophysiology biomarkers optimize prediction of epilepsy surgery outcome. Brain Commun. 2021;3(2):fcab042. doi:10.1093/braincomms/fcab042
